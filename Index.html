@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+   
+     <link rel="stylesheet" href="Index.css">
+     <script src="Index.js"></script>
+    
+    <title>Task-1</title>
+    
+</head>
+<body>
+    <div class="Navbar">
+        <div class="logo ">
+         <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="logo"></div> 
+   <div class="nav-items">
+    
+    <button><i class="bi bi-house-door-fill mysize"></i></button>
+    <button><i class="bi bi-tools mysize"></i></button>
+    <button><i class="bi bi-bell-fill mysize"></i></button>
+    <button><i class="bi bi-person-circle mysize"></i></button>
+    <button><i class="bi bi-three-dots-vertical mysize"></i></button>
+    
+  </div>
+
+<div class="sidebar" id="sidebar">
+    <div class="title">
+        Journey Board
+       <i style="font-size:30px;cursor:pointer" onclick="closeNav()" class="bi bi-list list"></i>  
+    </div>
+     <div class="demotask">
+       <p>  1.demo Task   </p>
+     </div>
+     <div class="list">
+         <ul>
+             <li>Task Heading 1</li>
+             <li>Task Heading 2</li>
+             <li>Task Heading 3</li>
+             <li>Task Heading 4</li>
+             <li>Task Heading 5</li>
+             <li>Task Heading 6</li>
+             <li>Task Heading 7</li>
+             <li>Task Heading 8</li>
+             <li>Task Heading 9</li>
+         </ul>
+     </div>
+
+</div>
+
+<div class="sidebar2" id="sidebar2">
+    
+   <div class="title2">
+    <i style="font-size:30px;cursor:pointer" onclick="openNav()" class="bi bi-list list"></i>
+    
+   </div>
+   <button class="bt">
+    1
+</button>
+
+</div>
+
+<script>
+function closeNav(){
+    document.getElementById("sidebar").style.display="none";
+    document.getElementById("sidebar2").style.display="block";
+}
+function openNav(){
+    document.getElementById("sidebar2").style.display="none";
+    document.getElementById("sidebar").style.display="inline";
+}
+</script>
+
+
+
+
+
+
+
+ </div>
+    <div class="top_container">
+     <h4>You Are Taking Challanges Of New Project</h4>
+
+    </div>
+     <div class="container">
+         <p id="demo"> demo task</p>
+
+
+         <div class="heading_1_top top"> Task Heading 1</div>
+      <div class="heading_1" id="para">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error molestias explicabo quae, nobis assumenda blanditiis modi aliquam maxime harum consequatur suscipit quis fugit quo ullam est itaque in non, sint animi veniam nostrum. Eum similique labore vel hic deleniti error, obcaecati rerum accusamus amet saepe doloribus .
+        <i class="bi bi-chevron-down arrow_h1 arrow" ></i>
+      </div>
+
+       <div class="heading_2_top top"><p>Task Heading 2</p></div>
+           
+<div class="heading_2">
+
+    <div class="thread"> Thread A</div>
+    
+    <div class="sub_thread">Sub Thread 1</div>
+    <div class="inpt"> <input type="text"placeholder="Enter Text here"></div>
+
+    <div class="sub_interpretation">Sub Interpretation 1</div>
+    <div class="inpt2"> <input type="text"placeholder="Enter Text here"></div>
+
+    
+    <select id="category" name="cars">
+      <option value="cat-1">Select Category</option>
+      <option value="cat-1">category 1</option>
+      <option value="cat-2">category 2</option>
+      
+    </select>
+    <select id="process" name="cars">
+      <option value="cat-1">Select process</option>
+      <option value="cat-1">category 1</option>
+      <option value="cat-2">category 2</option>
+      
+    </select>
+
+   <i class="bi bi-lightbulb-fill mybulb"></i>
+  <i class="bi bi-chat-right-text-fill mychat"></i>
+   <button class="plus_button"> <i class="bi bi-plus">Sub thread</i>  </button>
+   
+
+   <div class="summary">Summary for thread A</div>
+   <div class="inpt3"> <input type="text"placeholder="Enter Text here"></div>
+    
+
+   <div class="credit">Thread Credit</div>
+
+   <select id="emotion" name="cars">
+    <option value="cat-1">Select emotion</option>
+    <option value="cat-1">category 1</option>
+    <option value="cat-2">category 2</option>
+    
+  </select>
+
+  <button class="plus_button2"> <i class="bi bi-plus">New thread</i>  </button>
+
+   <i class="bi bi-file-earmark-post-fill folder"></i>
+
+   <i class="bi bi-chevron-up arrow_h2 arrow" ></i>
+   <i class="bi bi-chevron-down arrow_h22 arrow" ></i>
+
+</div>
+       
+
+<div class="heading_3_top top"><p>Task Heading 3</p></div>
+
+<div class="heading_3">
+    <div class="inpt4">
+        <input type="text" placeholder="Reflect as per given guidelines">
+    </div>
+    <i class="bi bi-chevron-down arrow_h3 arrow" ></i>
+
+</div>
+
+<div class="heading_4_top top">
+     Task Heading 4
+</div>
+<div class="heading_4">
+    <iframe src="https://drive.google.com/file/d/1Pxw83bTKE3KkOyYnwm1u6DSVjntSrNTp/preview?usp=sharing" width="96%" height="380px">
+    </iframe>
+    <i class="bi bi-chevron-down arrow_h4 arrow" ></i>
+
+</div>
+
+
+<div class="heading_7_top top"><p>Task Heading 7</p></div>
+
+<div class="heading_7">
+    <div class="intro">Introduction</div>
+
+  <div class="inpt5">
+      <input type="text" placeholder="Enter Introduction">
+  </div>
+
+
+<div class="thread2">
+    Thread A
+</div>
+<div class="example1">
+    Example 1
+</div>
+<div class="inpt6">
+    <input type="text" placeholder="Enter Text here">
+
+</div>
+<button class="plus_button3"> <i class="bi bi-plus">Example</i>  </button>
+
+
+<div class="argument">
+    Argument for Thread A
+</div>
+<div class="inpt7">
+    <input type="text" placeholder="Enter Text here">
+
+</div>
+
+<button class="plus_button4"> <i class="bi bi-plus">New Thread</i>  </button>
+
+<div class="conc">Conclusion</div>
+
+<div class="inpt8">
+    <input type="text" placeholder="Enter Conclusion">
+</div>
+
+<i class="bi bi-file-earmark-post-fill folder2"></i>
+
+<i class="bi bi-chevron-up arrow_h71 arrow" ></i>
+<i class="bi bi-chevron-up arrow_h72 arrow" ></i>
+<i class="bi bi-chevron-up arrow_h73 arrow" ></i>
+<i class="bi bi-chevron-down arrow_h74 arrow" ></i>
+
+</div>
+
+
+
+  <div class="heading_8_top top">
+    
+    Task Heading 8
+  </div>
+  <div class="heading_8">
+      
+      
+      
+      <iframe
+         class="frame"
+          src="https://drive.google.com/file/d/1dBBYQsz2yt3vc4YMkRmVC3nuTBbq2GON/preview" width="96%" height="70px" ></iframe>
+          <i class="bi bi-chevron-down arrow_h8 arrow" ></i>
+
+</div>
+    
+<div class="heading_9_top top"><p>Task Heading 9</p></div>
+<div class="heading_9">
+    <iframe width="325" height="195" src="https://www.youtube.com/embed/s8H0Sx7jy7c">
+    </iframe>
+    <i class="bi bi-chevron-down arrow_h9 arrow" ></i>
+
+</div>
+
+
+
+
+     </div>
+
+
+
+</body>
+</html>
